@@ -1,0 +1,31 @@
+{
+  "name": "@liqd-js/logger",
+  "description": "Logger",
+  "version": "0.0.1",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/logger.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liqd-js/logger.git"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "liqd-js",
+    "liqd"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.7",
+    "mocha": "^5.0.4",
+    "mongodb": "^3.6.3",
+    "nyc": "^14.1.1"
+  }
+}
